@@ -1,0 +1,71 @@
+/* App.css */
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 50%, #c9d6ff 100%);
+  min-height: 100vh;
+}
+
+.App {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 2rem;
+  color: #3c3c3c;
+}
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #5a4e4d;
+  letter-spacing: 1px;
+}
+
+input {
+  padding: 0.6rem 1rem;
+  width: 300px;
+  border: 1px solid #d3cfcf;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s ease;
+  margin-right: 0.5rem;
+  background: #fffaf7;
+  color: #333;
+}
+
+input:focus {
+  border-color: #a67c52;
+  box-shadow: 0 0 6px rgba(166, 124, 82, 0.3);
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  background: #a67c52;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #8c6844;
+}
+
+.video {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+iframe {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+iframe:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
