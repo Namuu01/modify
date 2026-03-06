@@ -15,7 +15,7 @@ function App(){
         <h1> Mood based song recommender</h1>
         <input placeholder="How is your Mood today?"
         onChange={(e)=>setText(e.target.value)}/>
-        <button onClick={getVideo}>Predict </button>
+        <button onClick={getVideo}>Suggest </button>
       <div className="video">
         {video.map(v=>(
           <iframe width="815" 
