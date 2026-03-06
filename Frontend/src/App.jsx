@@ -12,7 +12,7 @@ function App(){
 
     return(
       <div className="App">
-        <h1> Mood based Video Recommender</h1>
+        <h1> Mood based song recommender</h1>
         <input placeholder="How is your Mood today?"
         onChange={(e)=>setText(e.target.value)}/>
         <button onClick={getVideo}>Predict </button>
